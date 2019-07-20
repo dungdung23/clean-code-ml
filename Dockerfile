@@ -3,10 +3,10 @@ FROM python:3.6-slim
 RUN apt-get update \
   && apt-get install -y curl git
 
-RUN git config --global user.email "your@email.com"
-RUN git config --global user.name "your-github-username"
+RUN git config --global user.email "dung.neuvn@gmail.com"
+RUN git config --global user.name "dungdung23"
 
-xx
+#xx
 # update the lines above with your git username and email before running `docker build`
 
 WORKDIR /home/clean-code-ml
